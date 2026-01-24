@@ -25,6 +25,9 @@ Every step in this repository is documented with clarity so the setup can be rep
 
 ## What This Project Covers
 
+<img width="1024" height="631" alt="Gemini_Generated_Image_bdragsbdragsbdra" src="https://github.com/user-attachments/assets/aa248afc-d721-4f4a-b7e1-9ac5afc6ca83" />
+
+
 - End-to-end Kubernetes cluster setup using Amazon EKS  
 - Container image management with Amazon ECR  
 - Deployment of multiple services including web apps, workers, Redis, and PostgreSQL  
@@ -79,3 +82,4 @@ AWS makes it scalable
 Architecture makes it production ready  
 
 Still building. Still learning. Always improving.
+
