@@ -9,7 +9,7 @@ kubectl version
 #usr/local/bin
 
 ##Download eksctl
-curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s | tr '[:upper:]' '[:lower:]')_amd64.tar.gz" | tar xz -C /usr/local/bin/eksctl"
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s | tr '[:upper:]' '[:lower:]')_amd64.tar.gz" | tar xz -C /usr/local/bin
 sudo chmod +x /usr/local/bin/eksctl
 eksctl version
 
