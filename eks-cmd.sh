@@ -22,7 +22,7 @@ AWS_REGION=us-east-1
 
 eksctl create cluster \
 --name "first-k8s-cluster" \
---version 1.30  \
+--version 1.35  \
 --zones=us-east-1a,us-east-1b,us-east-1c \
 --without-nodegroup
 
@@ -43,7 +43,7 @@ eksctl create nodegroup --cluster=first-k8s-cluster \
                    	--nodes-max=4 \
                    	--node-volume-size=20 \
                    	--ssh-access \
-                   	--ssh-public-key=LatestPEM \
+                   	--ssh-public-key=DevOps-Key \
                    	--managed \
                    	--asg-access \
                    	--external-dns-access \
